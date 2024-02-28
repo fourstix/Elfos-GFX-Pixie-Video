@@ -294,5 +294,62 @@ Repository Contents
 * **/lbr/**  -- Elf/OS library file with Pixie Video graphics demo programs.
   * pixie_demo.lbr - Extract the program files with the Elf/OS command *lbr e pixie_demo*
 * **/docs/**  - Documentation files for the Pixie Video display.
-  * sh1106_datasheet.pdf - SH1106 Display Datasheet
-  
+  * cdp1861_datasheet.pdf - RCA CDP1861 Pixie Video Chip Datasheet
+
+License Information
+-------------------
+
+This code is public domain under the MIT License, but please buy me a beverage
+if you use this and we meet someday (Beerware).
+
+References to any products, programs or services do not imply
+that they will be available in all countries in which their respective owner operates.
+
+Adafruit, the Adafruit logo, and other Adafruit products and services are
+trademarks of the Adafruit Industries, in the United States, other countries or both. 
+
+Any company, product, or services names may be trademarks or services marks of others.
+
+All libraries used in this code are copyright their respective authors.
+
+This code is based on code written by Tony Hefner and assembled with the Asm/02 assembler and Link/02 linker written by Mike Riley.
+
+Elf/OS  
+Copyright (c) 2004-2023 by Mike Riley
+
+Asm/02 1802 Assembler  
+Copyright (c) 2004-2023 by Mike Riley
+
+Link/02 1802 Linker  
+Copyright (c) 2004-2023 by Mike Riley
+
+The Adafruit_GFX Library  
+Copyright (c) 2012-2023 by Adafruit Industries   
+Written by Limor Fried/Ladyada for Adafruit Industries. 
+
+The 1802-Mini Microcomputer Hardware   
+Copyright (c) 2020-2023 by David Madole
+
+Many thanks to the original authors for making their designs and code available as open source.
+ 
+This code, firmware, and software is released under the [MIT License](http://opensource.org/licenses/MIT).
+
+The MIT License (MIT)
+
+Copyright (c) 2023 by Gaston Williams
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+**THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.**
