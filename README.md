@@ -294,7 +294,7 @@ Repository Contents
 * **/lbr/**  -- Elf/OS library file with Pixie Video graphics demo programs.
   * pixie_demo.lbr - Extract the program files with the Elf/OS command *lbr e pixie_demo*
 * **/docs/**  - Documentation files for the Pixie Video display.
-  * cdp1861_datasheet.pdf - RCA CDP1861 Pixie Video Chip Datasheet
+  * cdp1861.pdf - RCA CDP1861 Pixie Video Chip Datasheet
 
 License Information
 -------------------

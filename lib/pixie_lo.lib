@@ -1,0 +1,208 @@
+.big
+.align  qword
+{pixie_display_buffer
+>0100
+}
+.big
+{pixie_display_ptr
+\pixie_display_buffer 0005
+/pixie_display_buffer 0008 00
+:0000 9f 73 8f 73 f8 00 af f8 00 bf f8 00 ad f8 00 bd
+:0010 97 ad 8d fe ad 9d 7e bd 8d fe ad 9d 7e bd 8d fe
+:0020 ad 9d 7e bd 87 f6 f6 f6 52 8d f4 ad 9d 7c 00 bd
+:0030 8d 52 8f f4 ad 9d 52 9f 74 bd 60 72 af f0 bf d5
+}
+.big
+{pixie_begin_display
+:0000 f8 00 b1 f8 0c a1 e3 70 23 d5 72 70 22 78 22 52
+/pixie_display_buffer 0014
+\pixie_display_buffer 0017
+:0010 c4 c4 c4 f8 00 b0 f8 00 a0 80 e2 e2 20 a0 e2 20
+:0020 a0 e2 20 a0 3c 19 30 0a
+^0001 0c
+v0004
+<0025
+<0027
+}
+.big
+{pixie_end_display
+:0000 e3 71 23 f8 00 b1 a1 b0 b0 d5
+}
+.big
+{pixie_clear_buffer
+\pixie_display_buffer 0009
+/pixie_display_buffer 000c 00
+:0000 9f 73 8f 73 9c 73 8c 73 f8 00 af f8 00 bf f8 00
+:0010 ac f8 01 bc f8 00 5f 1f 2c 8c ca 00 14 9c ca 00
+:0020 14 60 72 ac f0 bc 60 72 af f0 bf fc 00 d5
+^001b 14
+v001c
+^001f 14
+v0020
+}
+.big
+{pixie_fill_buffer
+\pixie_display_buffer 0009
+/pixie_display_buffer 000c 00
+:0000 9f 73 8f 73 9c 73 8c 73 f8 00 af f8 00 bf f8 00
+:0010 ac f8 01 bc f8 ff 5f 1f 2c 8c ca 00 14 9c ca 00
+:0020 14 60 72 ac f0 bc 60 72 af f0 bf fc 00 d5
+^001b 14
+v001c
+^001f 14
+v0020
+}
+.big
+{pixie_write_pixel
+/pixie_display_ptr 0009 00
+\pixie_display_ptr 000a
+:0000 9d 73 8d 73 9c 73 8c 73 d4 00 00 f8 80 bc 87 fa
+:0010 07 ac c2 00 1d 9c f6 bc 2c 8c c0 00 12 9c 52 99
+:0020 c2 00 2d fe c3 00 37 0d f1 5d c0 00 3a f8 ff f3
+:0030 52 0d f2 5d c0 00 3a 0d f3 5d 60 72 ac f0 bc 60
+:0040 72 ad f0 bd fc 00 d5
++0013
++001b
++0021
++0025
++002b
++0035
+}
+.big
+{pixie_begin_display
+:0000 f8 00 b1 f8 0c a1 e3 70 23 d5 72 70 22 78 22 52
+/pixie_display_buffer 0014
+\pixie_display_buffer 0017
+:0010 c4 c4 c4 f8 00 b0 f8 00 a0 80 e2 e2 20 a0 e2 20
+:0020 a0 e2 20 a0 3c 19 30 0a
+^0001 0c
+v0004
+<0025
+<0027
+}
+.big
+{pixie_fast_h_line
+:0000 9d 73 8d 73 9c 73 8c 73 9b 73 8b 73 9a 73 8a 73
+/pixie_display_ptr 0012 00
+\pixie_display_ptr 0013
+:0010 18 d4 00 00 87 fa 07 c2 00 73 fd 08 aa f8 e3 ab
+:0020 f8 00 bb 8a 52 8b f4 ab 9b 7c 00 bb 0b ba 8a 52
+:0030 88 f7 c3 00 4b fd 00 ac f8 ff bc 8c c2 00 46 9c
+:0040 fe bc 2c c0 00 3b 9c 52 9a f2 ba 99 c2 00 5b fe
+:0050 c3 00 65 9a 52 0d f1 5d c0 00 6a 9a fb ff 52 0d
+:0060 f2 5d c0 00 6a 9a 52 0d f3 5d 8a 52 88 f7 cb 00
+:0070 cc a8 1d 88 ff 08 cb 00 95 a8 99 c2 00 88 fe c3
+:0080 00 8e f8 ff 5d c0 00 72 f8 00 5d c0 00 72 0d fb
+:0090 ff 5d c0 00 72 88 c2 00 cc fa 07 aa f8 eb ab f8
+:00a0 00 bb 8a 52 8b f4 ab 9b 7c 00 bb 0b ba 99 c2 00
+:00b0 bd fe c3 00 c7 9a 52 0d f1 5d c0 00 cc 9a fb ff
+:00c0 52 0d f2 5d c0 00 cc 9a 52 0d f3 5d 60 72 aa f0
+:00d0 ba 60 72 ab f0 bb 60 72 ac f0 bc 60 72 ad f0 bd
+:00e0 fc 00 d5 00 01 03 07 0f 1f 3f 7f 00 80 c0 e0 f0
+:00f0 f8 fc fe
++0018
+v001e
+^0021 e3
++0033
++003d
++0044
++004d
++0051
++0059
++0063
++006f
++0077
++007c
++0080
++0086
++008c
++0093
++0097
+v009d
+^00a0 eb
++00af
++00b3
++00bb
++00c5
+}
+.big
+{pixie_fast_v_line
+/pixie_display_ptr 0009 00
+\pixie_display_ptr 000a
+:0000 9d 73 8d 73 9c 73 8c 73 d4 00 00 f8 80 bc 87 fa
+:0010 07 ac c2 00 1d 9c f6 bc 2c 8c c0 00 12 99 ca 00
+:0020 27 9c 52 f8 ff f3 bc 9c 52 99 c2 00 37 fe c3 00
+:0030 3d 0d f1 5d c0 00 40 0d f2 5d c0 00 40 0d f3 5d
+:0040 88 c2 00 50 8d fc 08 ad 9d 7c 00 bd 28 c0 00 27
+:0050 60 72 ac f0 bc 60 72 ad f0 bd fc 00 d5
++0013
++001b
++001f
++002b
++002f
++0035
++003b
++0042
++004e
+}
+.big
+{pixie_fill_bg
+:0000 99 fe c3 00 5d 9a 73 8a 73 99 73 89 73 98 73 88
+:0010 73 97 73 87 73 f8 06 aa f8 08 ba 98 c2 00 35 ff
+:0020 01 c2 00 35 a8 8a 52 f8 06 f4 aa 9a 52 f8 08 f4
+:0030 ba 28 ca 00 25 8a a8 9a b8 99 c2 00 43 f8 00 b9
+/gfx_fill_rect 0047 00
+\gfx_fill_rect 0048
+:0040 c0 00 46 f8 01 b9 d4 00 00 60 72 a7 f0 b7 60 72
+:0050 a8 f0 b8 60 72 a9 f0 b9 60 72 aa f0 ba fc 00 d5
++0003
++001d
++0022
++0033
++003b
++0041
+}
+.big
+{pixie_print_char
+/gfx_adj_cursor 0009 00
+\gfx_adj_cursor 000a
+/pixie_fill_bg 000c 00
+\pixie_fill_bg 000d
+/gfx_draw_char 000f 00
+:0000 99 73 89 73 98 73 88 73 d4 00 00 d4 00 00 d4 00
+\gfx_draw_char 0010
+:0010 00 98 ca 00 17 f8 01 52 87 f4 a7 60 72 a8 f0 b8
+:0020 60 72 a9 f0 b9 fc 00 d5
++0013
+}
+.big
+{pixie_print_string
+/pixie_print_char 000e 00
+\pixie_print_char 000f
+:0000 99 73 89 73 98 73 88 73 4f c2 00 16 a8 d4 00 00
+:0010 c3 00 16 c0 00 08 60 72 a8 f0 b8 60 72 a9 f0 b9
+:0020 d5
++000a
++0011
++0014
+}
+.big
+{gfx_disp_size
+:0000 f8 20 ba f8 40 aa d5
+}
+{gfx_disp_clear
+?pixie_clear_buffer 0001
+:0000 c0 00 00
+}
+{gfx_disp_pixel
+?pixie_write_pixel 0001
+:0000 c0 00 00
+}
+{gfx_disp_v_line
+?pixie_fast_v_line 0001
+:0000 c0 00 00
+}
+{gfx_disp_h_line
+?pixie_fast_h_line 0001
+:0000 c0 00 00
+}
