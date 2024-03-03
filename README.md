@@ -11,8 +11,7 @@ These programs were assembled and linked with updated versions of the Asm-02 ass
 
 The graphics demo programs use the common [GFX 1802 library](https://github.com/fourstix/GFX-1802-Library) with the Elfos-GFX-Pixie-Video device library to draw to the display.
 
-The graphics demo programs should run on any compatible Pixie Video system, such as 
-an Elf system with an [RCA CDP1861 Video]() chip, a Pico/Elf v2 with the [Pixie Video GLCD](https://github.com/fourstix/PicoElfPixieVideoGLCDV2) card or an [1802-Mini](https://github.com/dmadole/1802-Mini) with the [1802-Mini Pixie Video](https://github.com/dmadole/1802-Mini-Pixie-Video) card.
+The [Elfos-GFX-Pixie-Video device libraries](https://github.com/fourstix/Elfos-GFX-Pixie-Video/tree/main/lib), the [GFX 1802 library](https://github.com/fourstix/GFX-1802-Library) and the graphics demo programs should run on any compatible Pixie Video system, such as an Elf system with a [CDP1861 Video Controller](https://github.com/fourstix/Elfos-GFX-Pixie-Video/blob/main/docs/cdp1861.pdf) chip, a Pico/Elf v2 with the [Pixie Video GLCD](https://github.com/fourstix/PicoElfPixieVideoGLCDV2) card or an [1802-Mini](https://github.com/dmadole/1802-Mini) with the [1802-Mini Pixie Video](https://github.com/dmadole/1802-Mini-Pixie-Video) card.
 
 Pixie Video Libraries
 ---------------------
