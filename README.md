@@ -11,6 +11,9 @@ These programs were assembled and linked with updated versions of the Asm-02 ass
 
 The graphics demo programs use the common [GFX 1802 library](https://github.com/fourstix/GFX-1802-Library) with the Elfos-GFX-Pixie-Video device library to draw to the display.
 
+The graphics demo programs should run on any compatible Pixie Video system, such as 
+an Elf system with an [RCA CDP1861 Video]() chip, a Pico/Elf v2 with the [Pixie Video GLCD](https://github.com/fourstix/PicoElfPixieVideoGLCDV2) card or an [1802-Mini](https://github.com/dmadole/1802-Mini) with the [1802-Mini Pixie Video](https://github.com/dmadole/1802-Mini-Pixie-Video) card.
+
 Pixie Video Libraries
 ---------------------
 <table>
@@ -156,35 +159,34 @@ Pixie Video Graphics Demos
 
 <table class="table table-hover table-striped table-bordered">
   <tr align="center">
-   <td><img width=300 src="https://github.com/fourstix/Elfos-SPI-OLED-Drivers/blob/main/pics/bitmaps.jpg"></td>
-   <td><img width=300 src="https://github.com/fourstix/Elfos-SPI-OLED-Drivers/blob/main/pics/lines.jpg"></td> 
+   <td><img width=300 src="https://github.com/fourstix/Elfos-GFX-Pixie-Video/blob/main/pics/bitmaps.jpg"></td>
+   <td><img width=300 src="https://github.com/fourstix/Elfos-GFX-Pixie-Video/blob/main/pics/lines.jpg"></td> 
   </tr>
   <tr align="center">
    <td >Bitmaps Demo</td>
    <td >Lines Demo</td>
   </tr> 
   <tr align="center">
-   <td><img width=300 src="https://github.com/fourstix/Elfos-SPI-OLED-Drivers/blob/main/pics/tao.jpg"></td>
-   <td><img width=300 src="https://github.com/fourstix/Elfos-SPI-OLED-Drivers/blob/main/pics/triangles.jpg"></td> 
+   <td><img width=300 src="https://github.com/fourstix/Elfos-GFX-Pixie-Video/blob/main/pics/tao.jpg"></td>
+   <td><img width=300 src="https://github.com/fourstix/Elfos-GFX-Pixie-Video/blob/main/pics/triangles.jpg"></td> 
   </tr>
   <tr align="center">
    <td >Circles and Arcs Demo</td>
    <td >Triangles Demo</td>
   </tr>
   <tr align="center">
-   <td><img width=300 src="https://github.com/fourstix/Elfos-SPI-OLED-Drivers/blob/main/pics/bitmaps.jpg"></td>
-   <td><img width=300 src="https://github.com/fourstix/Elfos-SPI-OLED-Drivers/blob/main/pics/lines.jpg"></td> 
+   <td><img width=300 src="https://github.com/fourstix/Elfos-GFX-Pixie-Video/blob/main/pics/charset.jpg"></td>
+   <td><img width=300 src="https://github.com/fourstix/Elfos-GFX-Pixie-Video/blob/main/pics/charset2.jpg"></td> 
   </tr>
   <tr align="center">
-   <td >Bitmaps Demo</td>
-   <td >Lines Demo</td>
+   <td colspan="2">Charset Demo<</td>
   </tr> 
   <tr align="center">
-   <td><img width=300 src="https://github.com/fourstix/Elfos-SPI-OLED-Drivers/blob/main/pics/charset.jpg"></td>
-   <td><img width=300 src="https://github.com/fourstix/Elfos-SPI-OLED-Drivers/blob/main/pics/textbg.jpg"></td> 
+   <td><img width=300 src="https://github.com/fourstix/Elfos-GFX-Pixie-Video/blob/main/pics/spaceship2.jpg"></td>
+   <td><img width=300 src="https://github.com/fourstix/Elfos-GFX-Pixie-Video/blob/main/pics/textbg.jpg"></td> 
   </tr>
   <tr align="center">
-   <td >Charset Demo</td>
+   <td >Spaceship Demo</td>
    <td >Text Background Demo</td>
   </tr>  
 </table>
