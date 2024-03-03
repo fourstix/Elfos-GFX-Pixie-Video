@@ -179,7 +179,7 @@ Pixie Video Graphics Demos
    <td><img width=300 src="https://github.com/fourstix/Elfos-GFX-Pixie-Video/blob/main/pics/charset2.jpg"></td> 
   </tr>
   <tr align="center">
-   <td colspan="2">Charset Demo<</td>
+   <td colspan="2">Charset Demo</td>
   </tr> 
   <tr align="center">
    <td><img width=300 src="https://github.com/fourstix/Elfos-GFX-Pixie-Video/blob/main/pics/spaceship2.jpg"></td>
